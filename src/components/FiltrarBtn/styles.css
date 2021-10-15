@@ -1,0 +1,35 @@
+.filtrar__btn-item{
+    all: unset;
+    cursor: pointer;
+    
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+    padding: 4px 10px;
+    margin-right: 3px;
+}
+
+.desativado{
+    color: #000000;
+
+    background: #FAFAFA;
+}
+
+.ativado{
+    color: #FFFFFF;
+
+    background: #7B61FF;
+}
